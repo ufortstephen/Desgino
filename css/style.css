@@ -1,0 +1,186 @@
+                        * {
+                            padding: 0 !important;
+                            margin: 0 !important;
+                            box-sizing: border-box !important;
+                            list-style: none !important;
+                        }
+                        
+                        .container {
+                            max-width: 80%;
+                            margin-left: auto !important;
+                            margin-right: auto !important;
+                        }
+                        
+                        .phone-hero {
+                            background-color: #E7816B;
+                            border-radius: 20px !important;
+                            background: rgb(233, 97, 68);
+                            background: radial-gradient(circle, rgba(233, 97, 68, 1) 22%, rgba(231, 129, 107, 1) 24%, rgba(233, 97, 68, 1) 24%);
+                        }
+                        
+                        .iii {
+                            position: relative;
+                            top: 25px;
+                            z-index: -999.99;
+                        }
+                        
+                        *:hover {
+                            text-decoration: none !important;
+                        }
+                        
+                        .image-div {
+                            background: url(../images/comp1.jpg) no-repeat;
+                            background-size: cover;
+                            background-blend-mode: overlay;
+                            background-color: rgba(0, 0, 0, 0.787);
+                            background-attachment: fixed;
+                            height: 27rem;
+                            width: 50%;
+                            border-radius: 20px !important;
+                        }
+                        
+                        .image-div-2 {
+                            background: url(../images/comp2.jpg) no-repeat;
+                            background-size: cover;
+                            background-blend-mode: overlay;
+                            background-color: rgba(0, 0, 0, 0.787);
+                            width: 100%;
+                            background-attachment: fixed;
+                            height: 12rem;
+                            border-radius: 20px !important;
+                        }
+                        
+                        .w-80 {
+                            width: 80%;
+                        }
+                        
+                        .image-div div {
+                            padding: 10rem 0px !important;
+                        }
+                        
+                        .image-div-2 div {
+                            padding: 4rem 0px !important;
+                        }
+                        
+                        .footer-padding {
+                            padding-top: 9rem !important;
+                        }
+                        
+                        .div-project {
+                            border-radius: 20px;
+                            background: rgb(233, 97, 68);
+                            position: relative;
+                            top: 5rem;
+                            z-index: 1;
+                            margin: 0px 30px !important;
+                        }
+                        
+                        .footer {
+                            display: flex !important;
+                        }
+                        
+                        .footer-1 {
+                            border-bottom: 3px solid rgba(255, 255, 255, 0.411);
+                        }
+                        
+                        .icons-bg {
+                            background-color: #E7816B !important;
+                        }
+                        
+                        .office-text {
+                            color: rgba(255, 255, 255, 0.781);
+                        }
+                        
+                        @media screen and (max-width:690px) {
+                            .phone-img {
+                                display: none;
+                            }
+                            .container {
+                                max-width: 90% !important;
+                            }
+                            .footer {
+                                display: block !important;
+                            }
+                        }
+                        
+                        @media (max-width: 596px) {
+                            .cat {
+                                display: block !important;
+                            }
+                            .div-project {
+                                margin: 0px !important;
+                                padding: 2rem !important;
+                                display: block !important;
+                                text-align: center !important;
+                            }
+                            .div-project .pl-5 {
+                                padding-left: 0px !important;
+                            }
+                            .div-project .pr-5 {
+                                padding-right: 0px !important;
+                            }
+                            .w-80 {
+                                width: 100% !important;
+                                text-align: center !important;
+                            }
+                            .header {
+                                display: block !important;
+                                text-align: center !important;
+                                padding-top: 0px !important;
+                            }
+                            .header .pr-4 {
+                                padding-right: 0px !important;
+                            }
+                            .header div .pr-3 {
+                                padding-right: 0px !important;
+                            }
+                            .image-div {
+                                width: 100% !important;
+                                height: 15rem;
+                            }
+                            .image-div-2 {
+                                width: 100% !important;
+                                height: 10rem;
+                            }
+                            .w-50 {
+                                width: 100% !important;
+                            }
+                            .image-div div {
+                                padding: 5rem 0px !important;
+                            }
+                            .image-div-2 div {
+                                padding: 3rem 0px !important;
+                            }
+                        }
+                        
+                        @media (max-width: 494px) {
+                            .phone-hero {
+                                width: 95.5vw !important;
+                                margin-left: -19.9px !important;
+                                border-radius: 0px !important;
+                                padding: 0px !important;
+                                text-align: center !important;
+                            }
+                            .phone-hero .pt-5 {
+                                padding-top: 10px !important;
+                            }
+                            .phone-hero div .pl-5 {
+                                padding-left: 0px !important;
+                            }
+                            .phone-hero h2 {
+                                font-size: larger;
+                            }
+                            .phone-hero h2~h6 {
+                                font-size: medium;
+                            }
+                            .div-project {
+                                background-color: #E7816B;
+                                width: 95.5vw !important;
+                                border-radius: 0px;
+                                position: relative;
+                                top: 3rem;
+                                z-index: 1;
+                                margin: 0px 30px !important;
+                                margin-left: -19.9px !important;
+                            }
+                        }
