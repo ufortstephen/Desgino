@@ -21,28 +21,52 @@
 </head>
 
 <body>
-    <main>
+    <main class="">
         <!--Main starts here. This tag encloses all documents and contents of this webpage-->
 
         <div class="container py-2">
             <!--All centered and max-width elements are enclosed in this container classed div-->
 
-            <div class="d-flex justify-content-between py-4 header">
-                <div class="d-flex pb-4 header ">
-                    <div class="pr-3">
-                        <a href="#" class="text-dark"> <i class="fa fa-fire fa-2x text-danger" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <h4 class="text-uppercase"><a href="#" class="text-dark">Designo</a></h4>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between header">
-                    <div class="mb-2"><a href="#" class=" text-uppercase text-dark pr-4 ">Our company</a></div>
-                    <div class="mb-2"><a href="#" class=" text-uppercase text-dark pr-4 ">locations</a></div>
-                    <div><a href="#" class=" text-uppercase text-dark">contacts</a></div>
+            <div class="py-4 ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <a class="navbar-brand" href="#">
+                        <h3 class="text-uppercase text-dark"><i class="fa fa-fire fa-1x pr-2 text-danger " aria-hidden="true"></i>Designo</h3>
+                    </a>
 
-                </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"><i class="fa fa-bars pt-1 fa-1x text-dark" aria-hidden="true"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item  dropdown px-4">
+                                <a class="nav-link text  dropdown-toggle text-uppercase text-dark font-weight-medium" href="#" id="companyMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">our company <span class="sr-only">(current)</span></a>
+                                <div class="dropdown-menu bg-dark bg my-2 text-center text-uppercase" aria-labelledby="companyMenu">
+                                    <a class="dropdown-item bg-text p-2" href="#">mission statement</a>
+                                    <a class="dropdown-item bg-text p-2" href="#">vision statement</a>
+                                    <a class="dropdown-item bg-text p-2 " href="#">objectives</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown px-4">
+                                <a class="nav-link text-uppercase dropdown-toggle text-dark font-weight-medium" id="locationMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">location</a>
+                                <div class="dropdown-menu bg-dark bg  my-2 text-center text-uppercase" aria-labelledby="companyMenu">
+                                    <a class="dropdown-item bg-text p-2" href="#">mission statement</a>
+                                    <a class="dropdown-item bg-text p-2" href="#">vision statement</a>
+                                    <a class="dropdown-item bg-text p-2 " href="#">objectives</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown px-4">
+                                <a class="nav-link text-uppercase dropdown-toggle text-dark font-weight-medium" id="contactsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">contacts</a>
+                                <div class="dropdown-menu bg-dark bg  my-2 text-center text-uppercase" aria-labelledby="contactsMenu">
+                                    <a class="dropdown-item bg-text p-2" href="#">mission statement</a>
+                                    <a class="dropdown-item bg-text p-2" href="#">vision statement</a>
+                                    <a class="dropdown-item bg-text p-2 " href="#">objectives</a>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </nav>
             </div>
             <div class="phone-hero   mb-5">
                 <div class="d-flex px-3 justify-content-between pt-5">
@@ -63,7 +87,7 @@
             </div>
 
             <div class=" py-5 rounded-right rounded-left mb-5">
-                <div class="d-flex header">
+                <div class="d-flex header fixed">
                     <div class="image-div mr-5  mb-4 ">
                         <div class="text-center text-white text-uppercase ">
                             <h3 class="mb-3">Web Design</h3>
@@ -89,7 +113,7 @@
                 </div>
             </div>
 
-            <div class="d-flex py-4 justify-content-between cat">
+            <div class="d-flex py-4 justify-content-between cat fixed">
 
                 <div class="text-center">
                     <img src="./xcta.jpg" alt="" class="" width="150px" height="150px">
@@ -124,7 +148,7 @@
 
             <!--All centered and max-width elements are enclosed in this container classed div-->
         </div>
-        <div class="bg-dark footer-padding">
+        <div class="bg-dark footer-padding px-4">
             <div class="container">
                 <div class="d-flex justify-content-between py-4 text-white footer-1 header">
                     <div class="d-flex header mb-4">
